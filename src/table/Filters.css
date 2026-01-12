@@ -1,0 +1,30 @@
+.filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 12px 0;
+  padding: 6px 2px;
+}
+.filters__text, .filters__select, .filters__date {
+  padding: 8px 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 14px;
+  color: #222;
+}
+.filters__text { min-width: 260px; }
+.clear-btn {
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid #e6e6e6;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.filters__error {
+  color: #D33;
+  font-size: 12px;
+  padding: 8px 0;
+  margin-top: -6px;
+}

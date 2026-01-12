@@ -1,0 +1,13 @@
+/* CSS variables for theme colors (kept in sync with src/theme.js) */
+:root {
+  --color-primary: #3b82f6;
+  --color-primary-focus: rgba(59,130,246,0.12);
+  --color-border: #d1d5db;
+  --color-bg: #ffffff;
+  --color-text: #0f172a;
+  --color-success: #059669;
+  --color-danger: #dc2626;
+  --color-muted: #6b7280;
+  --shadow-1: 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-2: 0 4px 12px rgba(2,6,23,0.06);
+}

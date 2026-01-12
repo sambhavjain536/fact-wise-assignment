@@ -1,0 +1,40 @@
+.table-row {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f4f5f6;
+  min-height: 72px;
+  gap: 12px;
+  background: #fff;
+}
+.table-row:hover {
+  background: #fbfcfd;
+}
+.row-name { flex: 2; }
+.row-name .title { font-weight: 600; }
+.row-meta { color: #7a7f85; font-size: 13px; margin-top: 4px; }
+.row-date { flex: 1; color: #444; }
+.row-invited { flex: 1; color: #444; }
+.status-badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.status-active { background: #E6F8F0; color: #0A9A62; }
+.status-invited { background: #EEF7FF; color: #2B7EEA; }
+.status-blocked { background: #FDECEC; color: #D33; }
+.action-buttons { flex: 0.9; display: flex; gap: 8px; justify-content: flex-end; }
+.action-btn {
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  padding: 6px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #444;
+}
+.action-btn.warn { background: #FDECEC; border-color: rgba(211,51,51,0.12); color: #D33; }
+.action-btn.primary { background: #E6F8F0; border-color: rgba(10,154,98,0.12); color: #0A9A62; }
